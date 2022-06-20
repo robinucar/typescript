@@ -22,3 +22,9 @@ console.log(result1)
 // typescript compiler translate typescript code to javascript, and Javascript is not a typed language.
 //Therefore as a result2 we are seeing 68 on the console, which is wrong canculation
 //javascript just concat two strings
+
+
+console.log(typeof(number1)) // number
+console.log(typeof(number2)) // number
+console.log(typeof(number3)) // string
+console.log(typeof(number4)) // string
