@@ -30,21 +30,21 @@
 // console.log(typeof(number4)) // string
 
 // Using different types together
-function multiple(n1: number, n2: number, showResult: boolean, phrase: string) {
-    let result = n1 * n2
-    if(showResult) {
-        console.log(phrase + result)
-    } else {
-        return result
-    }
-}
+// function multiple(n1: number, n2: number, showResult: boolean, phrase: string) {
+//     let result = n1 * n2
+//     if(showResult) {
+//         console.log(phrase + result)
+//     } else {
+//         return result
+//     }
+// }
 
-const num1 = 3;
-const num2 = 6;
-const displayResult = true;
-const notDisplayResult = false;
-const format = 'Result is: ';
+// const num1 = 3;
+// const num2 = 6;
+// const displayResult = true;
+// const notDisplayResult = false;
+// const format = 'Result is: ';
 
-multiple(num1, num2, displayResult, format) // output = Result is: 18
+// multiple(num1, num2, displayResult, format) // output = Result is: 18
 
-multiple(num1, num2,notDisplayResult, format) // there is no output
+// multiple(num1, num2,notDisplayResult, format) // there is no output
